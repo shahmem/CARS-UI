@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+}
+.navbar{
+    position: fixed !important;
+    z-index: 20;
+    padding: 1rem 5rem !important;
+    width: 100% !important;
+    /* backdrop-filter: blur(5px) !important; */
+    background-color: rgba(0, 0, 0, 0.062);
+} 
+.navbar-brand{
+    color: rgb(61,210,186) !important;
+}
+/* .srch{
+    margin-left: -3rem !important;
+} */
+.srch input{
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 25px !important;
+    padding-left: 1rem;
+    margin-right: 2.6rem !important;
+    border-color: rgba(255, 255, 255, 0.514) !important;
+}
+.srch input:active,
+.srch input:focus
+{
+    background-color: rgba(0, 0, 0, 0.075) !important;
+}
+.srch input::placeholder{
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 13px;
+}
+.sr1{
+    position: absolute;
+    margin-left: 11.24rem;
+    margin-top: 0.48%;
+    color: rgba(255, 255, 255, 0.568) !important;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    transform: rotate(45deg);
+    background-color: rgb(61,210,186);
+    border-radius: 50%;
+}
+.menu{
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 0.6rem ;
+}
+.white>li>a{
+    color: white !important;
+    font-weight: 300;
+    transition: 0.4s;
+}
+.white-hv>li>a:hover{
+    color: white !important;
+    opacity: 0.8 !important;
+}
+.bg{
+    background-image: url(/images/car-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* position: absolute; */
+}
+.conatiner{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 18vh;
+    left: 6vw;
+    font-size: 3rem;
+}
+.conatiner p{
+    text-shadow: 0px 1px 2rem black;
+}
+.div2{
+    padding: 1.3rem;
+    max-width: 19.2rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 15px;
+    position: absolute;
+    left: 70%;
+    top: 18vh;
+}
+.div2 .p1{
+    font-size: 13px;
+    font-weight: 300;
+    text-align: justify;
+}
+.div2 .p2{
+    font-size: 14px;
+    font-weight: 300;
+}
+.div2 img{
+    rotate: 180deg;
+    transform: scaleX(-1.2);
+}
+.div3{
+    padding: .4rem;
+    max-width: 19.2rem;
+    color: white;
+    background-color: rgb(61,210,186);
+    border-radius: 25px;
+    position: absolute;
+    left: 6vw;
+    top: 50vh;
+}
+.div3 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 11px;
+    padding-left: .8rem ;
+}
+.sr2{
+    margin-left: 1.24rem;
+    padding:  3px;
+    color: rgba(255, 255, 255, 0.568) !important;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: rgb(61,210,186);
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: -5px;
+}
+.dropdown-menu a{
+    background-color: rgba(0, 0, 0, 0.11) !important;
+    color: rgb(203, 255, 252);
+}
+.dropdown-menu{
+    background-color: transparent !important;
+    border-radius: 10px !important;
+    
+}
